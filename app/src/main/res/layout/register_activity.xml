@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Your Information"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/nameET"
+        android:hint="Enter name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="25"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/rollET"
+        android:hint="Enter email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="16"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/phnnumET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter password"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_gravity="center_horizontal"
+        android:ems="14"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:background="#bd000000"
+        android:textColor="#e86837"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:onClick="addContact"/>
+
+</LinearLayout>

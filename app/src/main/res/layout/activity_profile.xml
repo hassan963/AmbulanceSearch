@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Information"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="100dp"
+            android:src="@drawable/c"/>
+
+        <TextView
+            android:id="@+id/userName"
+            android:text="username"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:text="Tap to create bussiness profile"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="payment"
+        android:background="#bd000000"
+        android:textColor="#e86837"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:onClick="payment"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELP"
+        android:background="#bd000000"
+        android:textColor="#e86837"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:onClick="help"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SETTINGS"
+        android:background="#bd000000"
+        android:textColor="#e86837"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:onClick="settings"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEARCH"
+        android:background="#bd000000"
+        android:textColor="#e86837"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:onClick="search"/>
+
+
+
+</LinearLayout>
